@@ -1,7 +1,7 @@
 # 📰 Fake News Detection with Machine Learning
 
 ## 🔗 Live Demo
-Visit Here: [Live Demo]()
+Visit Here: [Live Demo](https://iammihirsig-fake-news-detector.streamlit.app/)
 
 ## 🚀 Overview
 This project is a **Fake News Detection System** that uses **Logistic Regression** to classify news articles as **Fake or Real**. The model is trained on a dataset of true and fake news articles and deployed using **Streamlit** for a user-friendly web interface.
