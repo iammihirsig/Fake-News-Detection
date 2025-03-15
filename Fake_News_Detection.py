@@ -12,6 +12,9 @@ except ModuleNotFoundError:
 vectorizer = joblib.load("vectorizer.jb")
 model = joblib.load("lr_model.jb")
 
+# Page Config
+st.set_page_config(page_title="Fake News Detector", page_icon="📰")
+
 # Title
 st.markdown(
     "<h1 style='text-align: center; color: #2C3E50;'>📰 Fake News Detector 📰</h1>",
