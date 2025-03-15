@@ -74,13 +74,13 @@ st.markdown(
     """
     <style>
         .info-card {
-            background-color: #f8f9fa;
+            background-color: #f8f9fb;
             padding: 2px;
             border-radius: 15px;
             text-align: center;
             width: 90%;
             margin: auto;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.2);
             font-size: 15px;
             font-weight: bold;
             line-height: 1.6;
