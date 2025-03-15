@@ -1,9 +1,22 @@
-# 📰 Fake News Detection with Machine Learning
+# Fake News Detection with Machine Learning
 
-## 🔗 Live Demo
-Visit Here: [Live Demo](https://iammihirsig-fake-news-detector.streamlit.app/)
+![Banner](./resources/banner/Banner.png)
 
-## 🚀 Overview
+### 🚨 Deployment: [View Live](https://iammihirsig-fake-news-detector.streamlit.app/)
+
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Model Performance](#model-performance)
+- [Screenshots](#screenshots)
+- [Videos](#videos)
+- [What I Learned](#what-i-learned)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 📖 About
 This project is a **Fake News Detection System** that uses **Logistic Regression** to classify news articles as **Fake or Real**. The model is trained on a dataset of true and fake news articles and deployed using **Streamlit** for a user-friendly web interface.
 
 ## 🎯 Features
@@ -20,7 +33,37 @@ This project is a **Fake News Detection System** that uses **Logistic Regression
 - **Frontend**: Streamlit, HTML, CSS
 - **Deployment**: Streamlit Cloud
 
-## 📂 Project Structure
+## 📊 Model Performance
+| Metric     | Score |
+|------------|------|
+| Accuracy   | **99%**  |
+| Precision  | **98.5%** |
+| Recall     | **98.5%** |
+| F1 Score   | **99%** |
+| Training Time | **~30 sec** |
+
+
+## 🖼️ Screenshots
+![Interface](./resources/screenshots/01.png)
+![FakeNews](./resources/screenshots/02.png)
+![TrueNews](./resources/screenshots/03.png)
+![ErrorCode](./resources/screenshots/04.png)
+
+## 🖼️ Videos
+<video width="100%" controls>
+  <source src="./resources/videos/FakeNewsDetection.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## 🎓 What I Learned
+This was my **first Python project**, and I learned:
+- **Data preprocessing** techniques for NLP
+- **Building and training** an ML model
+- **Deploying** a Streamlit app
+- **Version control** with GitHub
+
+## 🏗️ Getting Started
+### 📂 Project Structure
 ```
 ├── .git/                    # Git repository
 ├── .gitignore               # Ignore unnecessary files
@@ -38,41 +81,17 @@ This project is a **Fake News Detection System** that uses **Logistic Regression
 └── vectorizer.jb            # TF-IDF Vectorizer
 ```
 
-## 📊 Model Performance
-| Metric     | Score |
-|------------|------|
-| Accuracy   | **99%**  |
-| Precision  | **98.5%** |
-| Recall     | **98.5%** |
-| F1 Score   | **99%** |
-| Training Time | **~30 sec** |
-
-## 🎓 What I Learned
-This was my **first Python project**, and I learned:
-- **Data preprocessing** techniques for NLP
-- **Building and training** an ML model
-- **Deploying** a Streamlit app
-- **Version control** with GitHub
-
-## 🚀 How to Run
+### 🚀 How to Run
 ```bash
 pip install -r Requirements.txt
 streamlit run Fake_News_Detection.py
 ```
-## 🖼️ Screenshots
-- ![Interface](./resources/screenshots/01.png)
-- ![FakeNews](./resources/screenshots/02.png)
-- ![TrueNews](./resources/screenshots/03.png)
-- ![ErroCode](./resources/screenshots/04.png)
 
-## 🖼️ Videos
-<video width="100%" controls>
-  <source src="./resources/videos/FakeNewsDetection.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## 🤝 Contributing
+I am not looking for contributions at this time. However, you are welcome to fork this repository and practice yourself to enhance your skills. Please avoid making unnecessary pull requests.
 
 ## 📜 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
-Made with 💙 by [Mihir Raj Singh | @iammihirsig](https://github.com/iammihirsig)
+Crafted with 💙 by Mihir Raj Singh | GitHub: [iammihirsig](https://github.com/iammihirsig)
